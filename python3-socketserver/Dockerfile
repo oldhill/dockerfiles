@@ -8,5 +8,4 @@ WORKDIR app
 
 COPY server.py app/
 
-# CMD ["ls", "-al"]
 CMD ["python3", "app/server.py"]
