@@ -1,12 +1,18 @@
 ## Greetings
 
+### Use at your own risk
+
 ### Build
-From the dockerfiles/golang-helloworld directory:
+Important! run this in the dockerfiles/golang-helloworld directory.
 ```
-docker build -t oldhill/golang-helloworld .
+<in the dockerfiles/golang-helloworld directory> $ build -t oldhill/golang-helloworld .
 ```
 
 ### Run
 ```
+# Interactive shell
 docker run -it oldhill/golang-helloworld
+
+# Just run the CMD and exit
+docker run oldhill/golang-helloworld
 ```
