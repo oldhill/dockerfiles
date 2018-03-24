@@ -1,3 +1,3 @@
 FROM golang:latest
 
-RUN apt-get update && apt-get install man
+RUN apt-get update && apt-get install -y man tree htop vim

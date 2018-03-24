@@ -1,7 +1,12 @@
 ## Greetings
 
 ### Build
-
+From the dockerfiles/golang-helloworld directory:
 ```
-some code
+docker build -t oldhill/golang-helloworld .
+```
+
+### Run
+```
+docker run -it oldhill/golang-helloworld
 ```
