@@ -1,6 +1,6 @@
 ## Greetings
 
-### Use at your own risk
+### ⚠ Use at your own risk ⚠
 
 ### Build
 Important! run this in the dockerfiles/golang-helloworld directory.
